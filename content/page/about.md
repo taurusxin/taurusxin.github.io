@@ -5,6 +5,7 @@ date: '2021-12-10'
 aliases:
   - about
   - contact
+slug: about
 license: CC BY-NC-ND
 lastmod: '2021-12-10'
 menu:

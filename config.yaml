@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://xingez.me
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
@@ -19,7 +19,7 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: false
 
 permalinks:
-    post: /p/:slug/
+    post: /:slug/
     page: /:slug/
 
 params:
