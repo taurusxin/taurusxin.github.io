@@ -1,13 +1,21 @@
 <!-- valine -->
-<div id="vcomments"></div>
 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-<script type="text/javascript">
+
+<span id="{{ .Permalink | relURL }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
+  <span class="post-meta-item-text">文章阅读量 </span>
+  <span class="leancloud-visitors-count">0</span>
+  <p></p>
+</span>
+
+<div id="vcomments"></div>
+
+<script>
     new Valine({
       el: '#vcomments',
-      appId: '{{ .Site.Params.valine.appId }}',
-      appKey: '{{ .Site.Params.valine.appKey }}',
-      avatar:'{{ .Site.Params.valine.avatar }}',
-      placeholder: '{{ .Site.Params.valine.placeholder }}',
-      visitor: {{ .Site.Params.valine.visitor }}
+      appId: '{{ .Site.Params.comments.valine.appId }}',
+      appKey: '{{ .Site.Params.comments.valine.appKey }}',
+      avatar:'{{ .Site.Params.comments.valine.avatar }}',
+      placeholder: '{{ .Site.Params.comments.valine.placeholder }}',
+      visitor: {{ .Site.Params.comments.valine.visitor }}
     })
 </script>
