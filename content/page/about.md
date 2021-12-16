@@ -54,7 +54,8 @@ menu:
 
 - [Instagram](https://www.instagram.com/taurus_yx/)
 - [微博](https://weibo.cn/2201650115/profile)
-- ~~Clubhouse - TaurusXin~~ (已废弃)
+- ~~Clubhouse - @taurusxin~~ (已废弃)
+- Clubhouse - @taurusyx (新)
 
 ### 媒体
 
