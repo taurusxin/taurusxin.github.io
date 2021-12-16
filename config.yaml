@@ -31,7 +31,7 @@ params:
 
     footer:
         since: 2019
-        customText: Made By ❤ in Hangzhou
+        customText: Made with ❤️ in Hangzhou
 
     dateFormat:
         published: 1 月 02 日, 2006 年
