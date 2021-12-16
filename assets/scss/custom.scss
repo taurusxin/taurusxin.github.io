@@ -1,3 +1,13 @@
+::selection{
+  background-color:#aed1ff;
+}
+::-webkit-selection{
+  background-color:#aed1ff;
+}
+::-moz-selection{
+  background-color:#aed1ff;
+}
+
 .widget.archives {
   .widget-archive--list {
     border-radius: var(--card-border-radius);
