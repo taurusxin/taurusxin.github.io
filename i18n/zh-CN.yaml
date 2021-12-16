@@ -2,3 +2,9 @@ widget:
     categoriesCloud:
         title: 
             other: 分类
+    
+    status:
+        title: 状态
+        start: 博客建立自：
+        time: 已稳定运行：
+        postCount: 总文章数量：

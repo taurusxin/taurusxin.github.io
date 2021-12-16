@@ -139,6 +139,7 @@ params:
             - search
             - tag-cloud
             - archives
+            - status
 
         categoriesCloud:
             limit: 20
@@ -148,6 +149,10 @@ params:
 
         tagCloud:
             limit: 10
+        
+        status:
+            start: 2018-08-04
+            format: yyyy 年 MM 月 dd 日
 
     opengraph:
         twitter:

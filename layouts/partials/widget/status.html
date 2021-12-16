@@ -1,0 +1,52 @@
+{{/*-- post count */}}
+{{ $posts := (where .Site.RegularPages "Section" "==" "post") }}
+{{ $postCount := len $posts }}
+
+<section class="widget tagCloud">
+  <div class="widget-icon">
+      {{ partial "helper/icon" "status" }}
+  </div>
+  <h2 class="widget-title section-title">{{ T "widget.status.title" }}</h2>
+
+  <div class="tagCloud-tags" style="display: flex; flex-direction: column;">
+    <div style="padding: 10px 0; color: #bababa;">{{ T "widget.status.postCount" }}{{ $postCount }}</div>
+    <div style="padding: 10px 0; color: #bababa;">{{ T "widget.status.start" }}<span id="start"></span></div>
+    <div style="padding: 10px 0; color: #bababa;">{{ T "widget.status.time" }}<span id="time"></span></div>
+  </div>
+
+  <script>
+    Date.prototype.format = function(fmt) { 
+     var o = { 
+        "M+" : this.getMonth()+1,                 //月份 
+        "d+" : this.getDate(),                    //日 
+        "h+" : this.getHours(),                   //小时 
+        "m+" : this.getMinutes(),                 //分 
+        "s+" : this.getSeconds(),                 //秒 
+        "q+" : Math.floor((this.getMonth()+3)/3), //季度 
+        "S"  : this.getMilliseconds()             //毫秒 
+    }; 
+    if(/(y+)/.test(fmt)) {
+            fmt=fmt.replace(RegExp.$1, (this.getFullYear()+"").substr(4 - RegExp.$1.length)); 
+    }
+     for(var k in o) {
+        if(new RegExp("("+ k +")").test(fmt)){
+             fmt = fmt.replace(RegExp.$1, (RegExp.$1.length==1) ? (o[k]) : (("00"+ o[k]).substr((""+ o[k]).length)));
+         }
+     }
+    return fmt; 
+    }
+
+
+    let start = new Date({{ .Site.Params.widgets.status.start }})
+    let startFormated = start.format({{ .Site.Params.widgets.status.format }})
+    document.querySelector('#start').innerHTML = startFormated
+
+    let now = new Date()
+    let diff = new Date(now.getTime() - start.getTime());
+
+    let years = (diff.getUTCFullYear() - 1970)
+    let months = diff.getUTCMonth()
+    let days = diff.getUTCDate() - 1
+    document.querySelector('#time').innerHTML = years + ' 年 ' + months + ' 月 ' + days + ' 天'
+  </script>
+</section>
