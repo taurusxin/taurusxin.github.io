@@ -30,8 +30,8 @@ params:
     favicon:
 
     footer:
-        since: 2020
-        customText:
+        since: 2019
+        customText: Made By ❤ in Hangzhou
 
     dateFormat:
         published: 1 月 02 日, 2006 年
@@ -135,9 +135,13 @@ params:
 
     widgets:
         enabled:
+            - categories
             - search
-            - archives
             - tag-cloud
+            - archives
+
+        categoriesCloud:
+            limit: 20
 
         archives:
             limit: 5
