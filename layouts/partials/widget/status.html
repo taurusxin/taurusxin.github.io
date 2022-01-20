@@ -7,8 +7,8 @@ $postCount := len $posts }}
 
   <div class="widget-archive--list">
     <div class="status-item">
-        <span class="year">{{ T "widget.status.postCount" }}</span>
-        <span class="count">{{ $postCount }}</span>
+      <span class="year">{{ T "widget.status.postCount" }}</span>
+      <span class="count">{{ $postCount }}</span>
     </div>
     <div class="status-item">
       <span class="year">{{ T "widget.status.start" }}</span>
@@ -21,38 +21,89 @@ $postCount := len $posts }}
   </div>
 
   <script>
-    Date.prototype.format = function(fmt) {
-     var o = {
-        "M+" : this.getMonth()+1,                 //月份
-        "d+" : this.getDate(),                    //日
-        "h+" : this.getHours(),                   //小时
-        "m+" : this.getMinutes(),                 //分
-        "s+" : this.getSeconds(),                 //秒
-        "q+" : Math.floor((this.getMonth()+3)/3), //季度
-        "S"  : this.getMilliseconds()             //毫秒
-    };
-    if(/(y+)/.test(fmt)) {
-            fmt=fmt.replace(RegExp.$1, (this.getFullYear()+"").substr(4 - RegExp.$1.length));
+      Date.prototype.format = function(fmt) {
+       var o = {
+          "M+" : this.getMonth()+1,                 //月份
+          "d+" : this.getDate(),                    //日
+          "h+" : this.getHours(),                   //小时
+          "m+" : this.getMinutes(),                 //分
+          "s+" : this.getSeconds(),                 //秒
+          "q+" : Math.floor((this.getMonth()+3)/3), //季度
+          "S"  : this.getMilliseconds()             //毫秒
+      };
+      if(/(y+)/.test(fmt)) {
+              fmt=fmt.replace(RegExp.$1, (this.getFullYear()+"").substr(4 - RegExp.$1.length));
+      }
+       for(var k in o) {
+          if(new RegExp("("+ k +")").test(fmt)){
+               fmt = fmt.replace(RegExp.$1, (RegExp.$1.length==1) ? (o[k]) : (("00"+ o[k]).substr((""+ o[k]).length)));
+           }
+       }
+      return fmt;
+      }
+
+
+      let start = new Date({{ .Site.Params.widgets.status.start }})
+      let startFormated = start.format({{ .Site.Params.widgets.status.format }})
+      document.querySelector('#start').innerHTML = startFormated
+      start.setMonth(start.getMonth() - 1)
+
+      let now = new Date()
+      now.setMonth(now.getMonth() -1)
+
+      let diff = Date.UTC(now.getFullYear(), now.getMonth(), now.getDay(), 0, 0, 0)
+    	 - Date.UTC(start.getFullYear(), start.getMonth(), start.getDay(), 0, 0, 0)
+
+      function checkleapyear(datea)
+      {
+        if(datea.getYear() % 4 == 0)
+        {
+          if(datea.getYear() % 10 != 0)
+          {
+            return true
+          }
+          else
+          {
+            if(datea.getYear() % 400 == 0)
+              return true
+            else
+              return false
+          }
+        }
+      return false;
+      }
+
+      function DaysInMonth(Y, M) {
+          with (new Date(Y, M, 1, 12)) {
+            setDate(-2)
+            return getDate()
+          }
+      }
+
+      function datediff(date1, date2)
+      {
+        var y1 = date1.getFullYear(), m1 = date1.getMonth(), d1 = date1.getDate(),
+          y2 = date2.getFullYear(), m2 = date2.getMonth(), d2 = date2.getDate()
+          if (d1 < d2)
+          {
+              m1--
+              d1 += DaysInMonth(y2, m2)
+          }
+          if (m1 < m2)
+          {
+              y1--
+              m1 += 12
+          }
+          return [y1 - y2, m1 - m2, d1 - d2]
+      }
+
+      var dife = datediff(now, start)
+    if(checkleapyear(start)==true)
+    {
+    	document.querySelector('#time').innerHTML = dife[0] + " 年 "+dife[1] + ' 月 ' + dife[2] + ' 天'
+
+    }else{
+    	document.querySelector('#time').innerHTML = dife[0] + " 年 "+dife[1] + ' 月 ' + dife[2] + ' 天'
     }
-     for(var k in o) {
-        if(new RegExp("("+ k +")").test(fmt)){
-             fmt = fmt.replace(RegExp.$1, (RegExp.$1.length==1) ? (o[k]) : (("00"+ o[k]).substr((""+ o[k]).length)));
-         }
-     }
-    return fmt;
-    }
-
-
-    let start = new Date({{ .Site.Params.widgets.status.start }})
-    let startFormated = start.format({{ .Site.Params.widgets.status.format }})
-    document.querySelector('#start').innerHTML = startFormated
-
-    let now = new Date()
-    let diff = new Date(now.getTime() - start.getTime());
-
-    let years = (diff.getUTCFullYear() - 1970)
-    let months = diff.getUTCMonth()
-    let days = diff.getUTCDate() - 1
-    document.querySelector('#time').innerHTML = years + ' 年 ' + months + ' 月 ' + days + ' 天'
   </script>
 </section>
