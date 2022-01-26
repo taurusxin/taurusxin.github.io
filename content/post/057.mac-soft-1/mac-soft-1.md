@@ -17,9 +17,7 @@ date: "2022-01-26 20:31:00"
 
 开机后，macOS 会引导用户进行相关设置并激活 macOS，在此过程中，可以通过设置 iCloud 将所有 Apple 的设备“连接起来”，形成 Apple 生态链，这也是苹果全家桶的价值和优势所在。
 
-![我的 iCloud 在 MacBook Pro 2018](%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E7%94%9F%E7%9A%84%20MacBook%20%E8%BD%AF%E4%BB%B6%E6%8C%87%E5%8D%97%EF%BC%88%E4%B8%80%EF%BC%89%20b242776b0a704c17beec1c6993851330/Untitled.png)
-
-我的 iCloud 在 MacBook Pro 2018
+![我的 iCloud 在 MacBook Pro 2018](https://cdn.rhyland.cn/hugo/2022/01-26/icloud.png)
 
 ## 软件包管理器
 
