@@ -136,10 +136,10 @@ macOS 下我个人最推荐使用的是 **iTerm 2** 这个终端模拟器了，�
 
 ```bash
 # 使用 curl 安装
-sh -c "$(curl -fsSL [https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh](https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh))"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # 使用 wget 安装
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 安装完成后，你的终端就会发生一些变化，有了一个默认的主题。接下来我们进行一些配置。
