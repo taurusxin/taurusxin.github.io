@@ -1,7 +1,7 @@
-{{/*-- post count */}} {{ $posts := (where .Site.RegularPages "Section" "==" "post") }} {{
-$postCount := len $posts }}
+{{/*-- post count */}} {{ $posts := (where .Context.Site.Pages "Section" "==" "post") }}
+{{ $postCount := len $posts }}
 
-<section class="widget archives">
+<section class="widget archives" style="padding-bottom: 45px;">
   <div class="widget-icon">{{ partial "helper/icon" "status" }}</div>
   <h2 class="widget-title section-title">{{ T "widget.status.title" }}</h2>
 
@@ -43,8 +43,8 @@ $postCount := len $posts }}
       }
 
 
-      let start = new Date({{ .Site.Params.widgets.status.start }})
-      let startFormated = start.format({{ .Site.Params.widgets.status.format }})
+      let start = new Date({{ .Params.start }})
+      let startFormated = start.format({{ .Params.format }})
       document.querySelector('#start').innerHTML = startFormated
       start.setMonth(start.getMonth() - 1)
 

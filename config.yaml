@@ -134,25 +134,24 @@ params:
             id: 
 
     widgets:
-        enabled:
-            - categories
-            - search
-            - tag-cloud
-            - archives
-            - status
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+            - type: status
+              params:
+                  start: 2018-08-04
+                  format: yyyy 年 MM 月 dd 日
 
-        categoriesCloud:
-            limit: 20
-
-        archives:
-            limit: 5
-
-        tagCloud:
-            limit: 10
-        
-        status:
-            start: 2018-08-04
-            format: yyyy 年 MM 月 dd 日
+        page:
+            - type: toc
 
     opengraph:
         twitter:
@@ -249,5 +248,11 @@ markup:
         startLevel: 2
     highlight:
         noClasses: false
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
 
 disqusShortname: taurusxin
