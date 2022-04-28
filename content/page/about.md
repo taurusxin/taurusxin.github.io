@@ -1,6 +1,6 @@
 ---
 title: 关于
-description: 关于我的一切
+description: 关于我的一些信息
 date: '2021-12-10'
 aliases:
   - about
@@ -15,27 +15,37 @@ menu:
             icon: user
 ---
 
+## 关于我
+
+我是 TaurusXin，土生土长于浙江杭州，2021 年末开始在英求学。咖啡、旅行、摄影爱好者。宽带症候群（对于网络要求极高的人群），Apple 死忠粉。
+
 
 
 ## 职业
 
-- 计算机科学在读本科生
-- 在英 Computer Science Master
+- 英国考文垂大学 Computer Science 在读本科生
+- 英国 Computer Science 理学硕士预备生
 - 技术方向
   - Web 全栈开发
-  - 移动开发
+  - 移动应用开发
   - Linux 运维
-  - 计算机视觉
-  - 大数据
+  - 大数据分析 / 云计算
+
+
 
 ## 技术栈
 
-- H5 / CSS3 / JS
-- Vue 2 / 3 (学习中)
+- HTML 5 / CSS 3 / ECMAScript 6
+- Vue 2 / 3
+- React.js
+- Node.js
 - Python 3
 - Java
 - MySQL
 - Golang
+- .NET
+
+
 
 ## 联系方式
 
@@ -48,16 +58,18 @@ menu:
 
 - [Telegram](https://t.me/taurusxin)
 
+
+
 ## 其他链接 & 信息
 
-### 社交
+### 社交网络
 
 - [Instagram](https://www.instagram.com/taurus_yx/)
 - [微博](https://weibo.cn/2201650115/profile)
 - ~~Clubhouse - @taurusxin~~ (因手机号原因已废弃)
 - Clubhouse - @taurusyx (新)
 
-### 媒体
+### 自媒体
 
 - [Bilibili](https://space.bilibili.com/4360325)
 
@@ -68,5 +80,6 @@ menu:
 ### 游戏
 
 - Minecraft
-  - Java Edition - Taurus_Xin
+  - Java Edition - [Taurus_Xin](https://namemc.com/profile/Taurus_Xin.1)
   - Bedrock Edition - TaurusXin6015
+- [Steam](https://steamcommunity.com/id/taurusyx/)
