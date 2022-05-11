@@ -5,7 +5,7 @@ paginate: 5
 title: TaurusXin 的独立博客
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: taurusxin
 
 # GA Tracking ID
 googleAnalytics:
@@ -254,5 +254,3 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
-
-disqusShortname: taurusxin
