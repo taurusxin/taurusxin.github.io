@@ -3,7 +3,7 @@ title: "2022 年程序员一定要做的一件事情 - 更换你的 SSH 公钥�
 categories: [ "Linux" ]
 tags: [ "ssh", "linux" ]
 draft: false
-slug: "ssh-key-Ed25519"
+slug: "ssh-key-ed25519"
 date: "2022-05-30 19:50:00"
 ---
 
