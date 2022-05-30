@@ -4,7 +4,7 @@ categories: [ "Linux" ]
 tags: [ "ssh", "linux" ]
 draft: false
 slug: "ssh-key-Ed25519"
-date: "2022-05-30 19:50"
+date: "2022-05-30 19:50:00"
 ---
 
 ## 前言
