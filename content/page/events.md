@@ -12,6 +12,7 @@ menu:
         weight: -60
         params:
             icon: notebook
+comments: false
 ---
 
 ## Events
