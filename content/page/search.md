@@ -1,5 +1,5 @@
 ---
-title: "寻觅"
+title: "搜寻"
 slug: "search"
 layout: "search"
 outputs:
@@ -7,7 +7,7 @@ outputs:
     - json
 menu:
     main:
-        weight: -60
+        weight: -50
         params: 
             icon: search
 ---
