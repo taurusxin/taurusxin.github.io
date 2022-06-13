@@ -60,7 +60,7 @@ params:
         valine:
             appId: 'Oo9eg4qwgaHJXo3HFSNW7OJY-gzGzoHsz'
             appKey: 'z8CS2Dxwcrqq45LTwSh4iqTN'
-            avatar: 'mp'
+            avatar: 'robohash'
             placeholder: '你如果说些什么，那我们就是朋友啦'
             visitor: true
 
