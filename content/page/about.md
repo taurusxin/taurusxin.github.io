@@ -17,21 +17,18 @@ menu:
 
 ## 关于我
 
-我是 TaurusXin，来自杭州，英国计算机科学在读。咖啡、旅行、摄影爱好者。宽带症候群（对于网络要求极高的人群），Apple 死忠粉。
-
+我是 TaurusXin，来自杭州，英国数据通讯工程在读。咖啡、旅行、摄影爱好者。宽带症候群（对于网络要求极高的人群），Apple 死忠粉。
 
 
 ## 职业
 
-- 英国考文垂大学 Computer Science 在读本科生
-- 英国 Computer Science 理学硕士预备生
+- 英国考文垂大学 (Coventry University) Computer Science 在读本科生
+- 英国谢菲尔德大学 (The University Of Sheffield) Engineering Data Communication 在读研究生
 - 技术方向
   - Web 全栈开发
   - 移动应用开发
   - Linux 运维
   - 大数据分析 / 云计算
-
-
 
 ## 技术栈
 
@@ -45,8 +42,6 @@ menu:
 - Golang
 - .NET
 
-
-
 ## 联系方式
 
 ### 邮箱
@@ -57,8 +52,6 @@ menu:
 ### IM
 
 - [Telegram](https://t.me/taurusxin)
-
-
 
 ## 其他链接 & 信息
 
