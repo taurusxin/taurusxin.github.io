@@ -13,7 +13,10 @@ date: "2022-07-24 12:11:00"
 
 ![HiCA 官网](https://cdn.rhyland.cn/hugo/2022/07-27/image-20220727235855829.png)
 
-2022 年 7 月 23 日，国产数字证书品牌 HiCA 正式上线，提供免费的半年 IP 或者通配符域名 SSL 证书，非常实用。
+2022 年 7 月 22 日，国产数字证书品牌 HiCA 正式上线，提供免费的半年 IP 或者通配符域名 SSL 证书，非常实用。
+
+7.27 更新：
+官网文档已上线，移步 <https://www1.hi.cn/docs/intro> 获得更多教程
 
 ## acme.sh
 
@@ -56,13 +59,19 @@ Ubuntu 默认的网站根目录位于 `/var/www/html`
 进入到你的服务器终端，输入以下命令行
 
 ```shell
-acme.sh --issue -d [IPv4/IPv6] --webroot [网站根目录] --server https://acme.hi.cn/directory
+acme.sh --issue \
+    -d [IPv4/IPv6] \
+    --webroot [网站根目录] \
+    --server https://acme.hi.cn/directory
 ```
 
 例如为 IP 1.1.1.1 申请证书，则执行
 
 ```shell
-acme.sh --issue -d 1.1.1.1 --webroot /www/wwwroot/1.1.1.1 --server https://acme.hi.cn/directory
+acme.sh --issue \
+    -d 1.1.1.1 \
+    --webroot /www/wwwroot/1.1.1.1 \
+    --server https://acme.hi.cn/directory
 ```
 
 稍等片刻，提示签发成功即可下载证书，位于 `~/.acme.sh/xx.xx.xx.xx`
@@ -79,9 +88,12 @@ acme.sh --issue -d 1.1.1.1 --webroot /www/wwwroot/1.1.1.1 --server https://acme.
 
 ![image-20220724123219633](https://cdn.rhyland.cn/hugo/2022/07-24/image-20220724123219633.png)
 
-然后打开服务器终端，cd 到 `.acme.sh` 目录下，编辑 `dnsapi`下的 `dns_ali.sh`文件，将第 5、6 行的 `Api_Key` 和 `Api_Secret` 替换成你申请到的 Key 和 Secret
+使用以下命令添加环境变量
 
-![image-20220724123631426](https://cdn.rhyland.cn/hugo/2022/07-24/image-20220724123631426.png)
+```shell
+export Ali_Key="你申请的Key"
+export Ali_Secret="你申请的Secret"
+```
 
 acme.sh 还提供了很多其它云服务厂商的 DNS API，详细可以参照官网 GitHub 的 Wiki
 
@@ -90,13 +102,21 @@ acme.sh 还提供了很多其它云服务厂商的 DNS API，详细可以参照�
 进入到你的服务器终端，输入以下命令行
 
 ```shell
-acme.sh --issue -d \*.[域名] -d [域名] --dns dns_ali --server https://acme.hi.cn/directory
+acme.sh --issue \
+    -d \*.[域名] \
+    -d [域名] \
+    --dns dns_ali \
+    --server https://acme.hi.cn/directory
 ```
 
-例如为域名 taurusxin.com 申请证书，则执行
+例如为域名 taurusxin.com 申请通配符证书，则执行
 
 ```shell
-acme.sh --issue -d \*.taurusxin.com -d taurusxin.com --dns dns_ali --server https://acme.hi.cn/directory
+acme.sh --issue \
+    -d \*.taurusxin.com \
+    -d taurusxin.com \
+    --dns dns_ali \
+    --server https://acme.hi.cn/directory
 ```
 
 稍等片刻，提示签发成功即可下载证书，同样位于 `~/.acme.sh/你的域名`
