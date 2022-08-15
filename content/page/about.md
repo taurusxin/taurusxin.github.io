@@ -7,7 +7,7 @@ aliases:
   - contact
 slug: about
 license: CC BY-NC-ND
-lastmod: '2021-12-10'
+lastmod: '2022-07-28'
 menu:
     main: 
         weight: -90
@@ -22,8 +22,8 @@ menu:
 
 ## 职业
 
-- 英国考文垂大学 (Coventry University) Computer Science 在读本科生
-- 英国谢菲尔德大学 (The University Of Sheffield) Engineering Data Communication 在读研究生
+- 英国考文垂大学 (Coventry University) Computer Science 学士（一等学位）
+- 英国谢菲尔德大学 (The University Of Sheffield) Engineering Data Communication 在读硕士
 - 技术方向
   - Web 全栈开发
   - 移动应用开发
