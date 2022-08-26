@@ -7,7 +7,7 @@ aliases:
   - contact
 slug: about
 license: CC BY-NC-ND
-lastmod: '2022-07-28'
+lastmod: '2022-08-26'
 menu:
     main: 
         weight: -90
@@ -46,8 +46,8 @@ menu:
 
 ### 邮箱
 
-- [博客域名邮箱](mailto:zyx@xingez.me)
-- [Outlook](mailto:taurusxin@outlook.com)
+- [域名邮箱 i@taurusxin.com](mailto:i@taurusxin.com)
+- [Outlook taurusxin@outlook.com](mailto:taurusxin@outlook.com)
 
 ### IM
 
