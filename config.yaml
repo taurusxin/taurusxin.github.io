@@ -31,7 +31,7 @@ params:
 
     footer:
         since: 2018
-        customText: Made with ❤️ in Hangzhou <br> <a href="https://beian.miit.gov.cn/">浙ICP备2022025362号</a>
+        customText: Made with ❤️ in Hangzhou <br> <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2022025362号</a>
 
     dateFormat:
         published: 1 月 02 日, 2006 年
@@ -209,7 +209,7 @@ menu:
         
         - identifier: mail
           name: 电邮
-          url: mailto:zyx@xingez.me
+          url: mailto:i@taurusxin.com
           params:
             icon: mail
         
