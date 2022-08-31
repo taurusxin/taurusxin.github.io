@@ -31,7 +31,7 @@ params:
 
     footer:
         since: 2018
-        customText: Made with ❤️ in Hangzhou
+        customText: Made with ❤️ in Hangzhou <br> <a href="https://beian.miit.gov.cn/">浙ICP备2022025362号</a>
 
     dateFormat:
         published: 1 月 02 日, 2006 年
