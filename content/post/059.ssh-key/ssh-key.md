@@ -19,7 +19,7 @@ Ed25519 的安全性在 RSA 2048 与 RSA 4096 之间，且性能数十倍于 RSA
 
 自 2022 年 4 月 21 日 Canonical 发布了 Ubuntu 22.04 版本，并且将 Ed25519 加入了 SSH 登录密钥算法，禁用了 RSA 公钥算法，导致我在 iOS 上 ServerCat 应用程式的 RSA 密钥无法连接到服务器，经过排查之后发现 Ubuntu 22.04 将 OpenSSH 版本升级到 8.9，且 OpenSSH 团队宣布`ssh-rsa`在 8.8 版本中将默认禁用签名方案。
 
-![SSH 服务端守护进程版本](https://cdn.rhyland.cn/hugo/2022/05-30/image-20220530200309584.png)
+![SSH 服务端守护进程版本](https://cdn.taurusxin.com/hugo/2022/05-30/image-20220530200309584.png)
 
 这是导致我无法使用 RSA 秘钥连接到我所有已经升级到 Ubuntu 22.04 版本的虚拟机
 

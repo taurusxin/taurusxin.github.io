@@ -11,7 +11,7 @@ date: "2022-07-24 12:11:00"
 
 官网：<https://www1.hi.cn/>
 
-![HiCA 官网](https://cdn.rhyland.cn/hugo/2022/07-27/image-20220727235855829.png)
+![HiCA 官网](https://cdn.taurusxin.com/hugo/2022/07-27/image-20220727235855829.png)
 
 2022 年 7 月 22 日，国产数字证书品牌 HiCA 正式上线，提供免费的半年 IP 或者通配符域名 SSL 证书，非常实用。
 
@@ -36,7 +36,7 @@ curl https://get.acme.sh | sh -s email=my@example.com
 
 ### 宝塔面板
 
-![宝塔面板新建站点](https://cdn.rhyland.cn/hugo/2022/07-24/image-20220724121747259.png)
+![宝塔面板新建站点](https://cdn.taurusxin.com/hugo/2022/07-24/image-20220724121747259.png)
 
 使用宝塔面板新建一个站点，域名填写你的 IP，然后测试直接访问 IP，成功看到页面即可。
 
@@ -86,7 +86,7 @@ acme.sh --issue \
 
 首先在阿里云申请一个 AccessKey，用于 API 操作阿里云服务，可以使用子用户的方法，并且只授权 `AliyunDNSFullAccess` 权限
 
-![image-20220724123219633](https://cdn.rhyland.cn/hugo/2022/07-24/image-20220724123219633.png)
+![image-20220724123219633](https://cdn.taurusxin.com/hugo/2022/07-24/image-20220724123219633.png)
 
 使用以下命令添加环境变量
 
@@ -123,4 +123,4 @@ acme.sh --issue \
 
 若提示 acme.sh 命令不存在，直接 cd 到 /root 目录下的 `.acme.sh` 目录下只用相对路径执行命令即可。
 
-![image-20220724124717718](https://cdn.rhyland.cn/hugo/2022/07-24/image-20220724124717718.png)
+![image-20220724124717718](https://cdn.taurusxin.com/hugo/2022/07-24/image-20220724124717718.png)
