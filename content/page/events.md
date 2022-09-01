@@ -17,6 +17,7 @@ comments: false
 
 ## Events
 
+- 2022 年 9 月 1 日 - 接入备案，并分流接入全球 CDN (境外 Cloudflare + 大陆腾讯云 CDN)，详见[这篇文章](https://taurusxin.com/global-cdn-beian/)
 - 2022 年 6 月 13 日 - 启用 taurusxin.com 新域名
 - 2022 年 5 月 31 日 - 新增此页面，记录过去博客发生的所有变化
 - 2021 年 12 月 21 日 - 抛弃 Typecho，迁移所有内容至 [Hugo](https://gohugo.io/) 静态博客，使用 [Stack](https://github.com/CaiJimmy/hugo-theme-stack) 作为主题，托管至 Cloudflare Pages，同时域名去掉了 blog 开头，使用根域名
