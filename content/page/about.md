@@ -46,8 +46,8 @@ menu:
 
 ### 邮箱
 
-- [域名邮箱 i@taurusxin.com](mailto:i@taurusxin.com)
-- [Outlook taurusxin@outlook.com](mailto:taurusxin@outlook.com)
+- [域名邮箱](mailto:i@taurusxin.com)
+- [Outlook](mailto:taurusxin@outlook.com)
 
 ### IM
 
