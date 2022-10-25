@@ -209,7 +209,7 @@ menu:
         
         - identifier: mail
           name: 电邮
-          url: mailto:i@taurusxin.com
+          url: mailto:i@mail.taurusxin.com
           params:
             icon: mail
         
