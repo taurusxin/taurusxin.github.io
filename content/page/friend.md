@@ -12,11 +12,11 @@ edit: false
 comment: true
 ---
 
-### 欢迎交换友情链接
+### 友链申请格式
 
 > 网站名称：TaurusXin 的独立博客
 >
-> 网站链接：<https://xingez.me>
+> 网站链接：<https://taurusxin.com>
 >
 > 网站图像：<https://secure.gravatar.com/avatar/6d119b79c135fe14da072e57431a17e9>
 >
