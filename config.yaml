@@ -198,7 +198,6 @@ menu:
           weight: -40
           params:
             icon: rss
-            newtab: true
     
     social:
         - identifier: github

@@ -46,5 +46,11 @@
     "website": "https://meta-sns.com/",
     "image": "lincoin.jpg",
     "description": "Maybe is a blog site."
+  },
+  {
+    "title": "Clouder’s Blog",
+    "website": "https://www.codein.icu/",
+    "image": "codein.png",
+    "description": "A student who enjoys tech & life."
   }
 ]
