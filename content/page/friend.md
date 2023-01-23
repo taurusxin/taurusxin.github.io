@@ -18,6 +18,6 @@ comment: true
 >
 > 网站链接：<https://taurusxin.com>
 >
-> 网站图像：<https://secure.gravatar.com/avatar/6d119b79c135fe14da072e57431a17e9>
+> 网站图像：<https://cdn.taurusxin.com/hugo/avatar.jpg>
 >
 > 网站描述：永远年轻 永远热泪盈眶
