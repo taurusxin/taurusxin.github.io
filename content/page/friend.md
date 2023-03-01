@@ -16,7 +16,7 @@ comment: true
 
 > 网站名称：TaurusXin 的独立博客
 >
-> 网站链接：<https://taurusxin.com>
+> 网站链接：<https://www.taurusxin.com>
 >
 > 网站图像：<https://cdn.taurusxin.com/hugo/avatar.jpg>
 >
