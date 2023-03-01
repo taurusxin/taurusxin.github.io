@@ -208,7 +208,7 @@ menu:
         
         - identifier: mail
           name: 电邮
-          url: mailto:i@mail.taurusxin.com
+          url: mailto:i@taurusxin.com
           params:
             icon: mail
         
