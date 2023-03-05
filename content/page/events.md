@@ -17,6 +17,7 @@ comments: false
 
 ## Events
 
+- 2023 年 3 月 5 日 - 启用了全新的评论系统 Artalk，详见[这篇文章](https://www.taurusxin.com/artalk-comment/)
 - 2023 年 3 月 1 日 - 域名前加上 www，优化 SEO，并 301 原先的根域名
 - 2022 年 9 月 1 日 - 接入备案，并分流接入全球 CDN (境外 Cloudflare + 大陆腾讯云 CDN)，详见[这篇文章](https://www.taurusxin.com/global-cdn-beian/)
 - 2022 年 6 月 13 日 - 启用 taurusxin.com 新域名
