@@ -57,7 +57,7 @@ params:
 
     comments:
         enabled: true
-        provider: valine
+        provider: artalk
 
         valine:
             appId: 'Oo9eg4qwgaHJXo3HFSNW7OJY-gzGzoHsz'
@@ -65,6 +65,11 @@ params:
             avatar: 'robohash'
             placeholder: '你如果说些什么，那我们就是朋友啦'
             visitor: true
+        
+        artalk:
+            server: 'https://artalk.taurusxin.com'
+            site: 'Hugo'
+            darkMode: 'auto'
 
         disqusjs:
             shortname: taurusxin

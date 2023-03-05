@@ -1,0 +1,19 @@
+<!-- CSS -->
+<link href="https://unpkg.com/artalk@2.4.4/dist/Artalk.css" rel="stylesheet">
+
+<!-- JS -->
+<script src="https://unpkg.com/artalk@2.4.4/dist/Artalk.js"></script>
+
+<!-- Artalk -->
+<div id="Comments"></div>
+
+<script>
+  new Artalk({
+    el:        '#Comments',
+    pageKey:   '{{ .Page.RelPermalink }}',
+    pageTitle: '{{ .Title }}',
+    server:    '{{ $.Site.Params.comments.artalk.server }}',
+    site:      '{{ $.Site.Params.comments.artalk.site }}',
+    darkMode:  '{{ $.Site.Params.comments.artalk.darkMode }}'
+  })
+</script>
