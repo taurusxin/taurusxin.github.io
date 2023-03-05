@@ -68,7 +68,7 @@ params:
         
         artalk:
             server: 'https://artalk.taurusxin.com'
-            site: 'Hugo'
+            site: 'TaurusXin 的独立博客'
             darkMode: 'auto'
 
         disqusjs:
