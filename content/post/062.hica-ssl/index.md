@@ -56,6 +56,8 @@ Ubuntu 默认的网站根目录位于 `/var/www/html`
 
 ### 签发
 
+**「2023 年 3 月更新」注意：从 acme.sh v3.0.6 版本开始，将默认使用 ec-256 作为秘钥算法（[详见这条commit](https://github.com/acmesh-official/acme.sh/commit/ec0e871592d286b8cd4e1d407411f0ba17c775e6)），而不是 RSA2048，而 hica-ssl 免费半年通配符证书仅有 RSA4096 （不含）以下是免费的，若需签发免费证书，需要在命令行结尾加 `-k 2048` 来指定秘钥长度** 
+
 进入到你的服务器终端，输入以下命令行
 
 ```shell
