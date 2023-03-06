@@ -8,12 +8,16 @@
 <div id="Comments"></div>
 
 <script>
-  new Artalk({
+  const artalkInstance = new Artalk({
     el:        '#Comments',
     pageKey:   '{{ .Page.RelPermalink }}',
     pageTitle: '{{ .Title }}',
     server:    '{{ $.Site.Params.comments.artalk.server }}',
     site:      '{{ $.Site.Params.comments.artalk.site }}',
     darkMode:  '{{ $.Site.Params.comments.artalk.darkMode }}'
+  })
+
+  window.addEventListener('onColorSchemeChange', (e) => {
+    artalkInstance.setDarkMode(e.detail == 'dark')
   })
 </script>
