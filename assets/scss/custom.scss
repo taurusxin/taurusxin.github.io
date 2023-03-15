@@ -1,11 +1,31 @@
-::selection{
-  background-color:#aed1ff;
+@media (prefers-color-scheme: light) {
+  ::selection{
+    color: #f5f5fa;
+    background-color: #424242;
+  }
+  ::-webkit-selection{
+    color: #f5f5fa;
+    background-color: #424242;
+  }
+  ::-moz-selection{
+    color: #f5f5fa;
+    background-color: #424242;
+  }
 }
-::-webkit-selection{
-  background-color:#aed1ff;
-}
-::-moz-selection{
-  background-color:#aed1ff;
+
+@media (prefers-color-scheme: dark) {
+  ::selection{
+    color: #303030;
+    background-color: #f5f5fa;
+  }
+  ::-webkit-selection{
+    color: #303030;
+    background-color:#f5f5fa;
+  }
+  ::-moz-selection{
+    color: #303030;
+    background-color:#f5f5fa;
+  }
 }
 
 .widget.archives {
