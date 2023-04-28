@@ -6,8 +6,7 @@ aliases:
   - about
   - contact
 slug: about
-license: CC BY-NC-ND
-lastmod: '2022-08-26'
+lastmod: '2023-03-01'
 menu:
     main: 
         weight: -90

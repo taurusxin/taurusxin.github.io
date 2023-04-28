@@ -5,8 +5,7 @@ date: '2022-05-31'
 aliases:
   - events
 slug: events
-license: CC BY-NC-ND
-lastmod: '2022-05-31'
+lastmod: '2023-03-05'
 menu:
     main: 
         weight: -60
