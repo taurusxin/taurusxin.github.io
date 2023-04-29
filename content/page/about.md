@@ -6,7 +6,7 @@ aliases:
   - about
   - contact
 slug: about
-lastmod: '2023-03-01'
+lastmod: '2023-04-29T09:43:00+0100'
 menu:
     main: 
         weight: -90
@@ -16,7 +16,7 @@ menu:
 
 ## 关于我
 
-我是 TaurusXin，来自杭州，英国数据通讯工程在读。咖啡、旅行、摄影爱好者。宽带症候群（对于网络要求极高的人群），Apple 死忠粉。
+我是 TaurusXin，来自杭州，英国研究生在读。咖啡、旅行、摄影爱好者。宽带症候群（对于网络要求极高的人群），Apple 死忠粉。
 
 
 ## 职业

@@ -37,7 +37,7 @@ params:
 
     dateFormat:
         published: 1 月 02 日, 2006 年
-        lastUpdated: 1 月 02 日, 2006 年 15:04 MST
+        lastUpdated: 1 月 02 日, 2006 年 15:04 UTC-07
 
     sidebar:
         emoji: 🍉

@@ -5,7 +5,7 @@ date: '2022-05-31'
 aliases:
   - events
 slug: events
-lastmod: '2023-03-05'
+lastmod: '2023-03-05T10:20:00+0100'
 menu:
     main: 
         weight: -60
