@@ -18,7 +18,6 @@ menu:
 
 我是 TaurusXin，来自杭州，英国研究生在读。咖啡、旅行、摄影爱好者。宽带症候群（对于网络要求极高的人群），Apple 死忠粉。
 
-
 ## 职业
 
 - 英国考文垂大学 (Coventry University) Computer Science 学士（一等学位）
