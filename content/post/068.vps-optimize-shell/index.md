@@ -3,7 +3,7 @@ title: "大幅度优化你的 VPS 网速"
 categories: [ "程序人生" ]
 tags: [ "vps" ]
 draft: false
-slug: "artalk-comment"
+slug: "linux-network-optimize"
 date: "2023-05-21 23:59:00"
 ---
 
