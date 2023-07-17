@@ -14,7 +14,7 @@ date: "2023-05-21 23:59:00"
 我将要做的内容全都整合进一个脚本，使用以下命令行即可执行。
 
 ```shell
-wget https://gist.githubusercontent.com/taurusxin/a9fc3ad039c44ab66fca0320045719b0/raw/3906efed227ee14fc5b4ac8eb4eea8855021ef19/optimize.sh -o optimize.sh && sudo bash optimize.sh
+wget https://gist.githubusercontent.com/taurusxin/a9fc3ad039c44ab66fca0320045719b0/raw/3906efed227ee14fc5b4ac8eb4eea8855021ef19/optimize.sh && sudo bash optimize.sh
 ```
 
 具体做的事情，有以下几点：
