@@ -10,6 +10,7 @@ date: "2021-10-27 00:23:00"
 由于官方 https 站均被屏蔽，目前本站使用的是自建的 gravatar 镜像站，使用 Cachefly 全球 CDN 进行分发
 
 说明地址：<https://gravatar.taurusxin.com/>
+
 镜像地址：<https://gravatar.taurusxin.com/avatar/>
 
 将你的博客中的头像地址改为 <https://gravatar.taurusxin.com/avatar/> 即可
