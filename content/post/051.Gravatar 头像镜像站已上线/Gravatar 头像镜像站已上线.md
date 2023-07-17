@@ -1,24 +1,18 @@
 ---
 title: "Gravatar 头像镜像站已上线"
 categories: [ "程序人生" ]
-tags: [  ]
+tags: [ "cdn", "gravatar" ]
 draft: false
 slug: "gravatar"
 date: "2021-10-27 00:23:00"
 ---
 
-由于官方 https 站均被屏蔽，目前本站使用的是自建的 gravatar 镜像站，使用 nginx 进行反代
+由于官方 https 站均被屏蔽，目前本站使用的是自建的 gravatar 镜像站，使用 Cachefly 全球 CDN 进行分发
 
-说明地址：https://gravatar.xingez.me/
-镜像地址：https://gravatar.xingez.me/avatar/
+说明地址：<https://gravatar.taurusxin.com/>
+镜像地址：<https://gravatar.taurusxin.com/avatar/>
 
-由于刚刚上线，线路为美国洛杉矶服务器，预计在一个月内部署全球CDN，包括中国大陆加速。
-
-!!!
-<div>CDN是否已部署：<span style="color: red; font-weight: bold;">否</span></div><br />
-!!!
-
-将你的博客中的头像地址改为 https://gravatar.xingez.me/avatar/ 即可
+将你的博客中的头像地址改为 <https://gravatar.taurusxin.com/avatar/> 即可
 
 缓存规则如下
 
@@ -36,5 +30,4 @@ date: "2021-10-27 00:23:00"
 
 若默认头像显示正确，则镜像站工作正常
 
-
-  [1]: https://gravatar.xingez.me/avatar/
+  [1]: https://gravatar.taurusxin.com/avatar/
