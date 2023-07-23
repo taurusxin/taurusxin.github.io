@@ -16,6 +16,7 @@ comments: false
 
 ## Events
 
+- 2023 年 7 月 23 日 - 新增留言板页面，详见[这篇文章](https://www.taurusxin.com/new-message-board/)
 - 2023 年 7 月 17 日 - 升级 Gravatar 镜像站 CDN，采用 CacheFly 全球 CDN，详见[这篇文章](https://www.taurusxin.com/gravatar/)
 - 2023 年 3 月 5 日 - 启用了全新的评论系统 Artalk，详见[这篇文章](https://www.taurusxin.com/artalk-comment/)
 - 2023 年 3 月 1 日 - 域名前加上 www，优化 SEO，并 301 原先的根域名
