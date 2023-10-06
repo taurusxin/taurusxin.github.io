@@ -142,7 +142,11 @@ nmake clean
 
 ### 下载
 
-附上我编译的动态版及静态版 [点击下载][6]
+附上我编译的动态链接版及静态链接版，已经移除了 pdb 调试符号文件，确保文件大小
+
+[动态链接版](https://cdn.taurusxin.com/softwares/openssl/openssl-3.1.3-windows-amd64-dynamic.zip)
+
+[静态链接版](https://cdn.taurusxin.com/softwares/openssl/openssl-3.1.3-windows-amd64-static.zip)
 
 ### 结尾语
 
