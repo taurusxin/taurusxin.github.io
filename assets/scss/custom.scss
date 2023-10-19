@@ -74,3 +74,10 @@
       }
   }
 }
+
+/**
+*   Global font family
+*/
+:root {
+  --code-font-family: "Jetbrains Mono", Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
+}
