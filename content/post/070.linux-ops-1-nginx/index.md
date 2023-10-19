@@ -48,7 +48,7 @@ sudo apt install build-essential
 sudo apt install libpcre2-dev zlib1g-dev
 ```
 
-建立一个工作环境，我们在`/opt`目录下完成我们的工作
+建立一个工作环境，我们在`/usr/local`目录下完成我们的工作
 
 ```shell
 mkdir /usr/local/src && cd /usr/local/src
@@ -141,4 +141,3 @@ sudo systemctl stop nginx.service
 # 查看服务状态
 sudo systemctl status nginx.service
 ```
-
