@@ -81,3 +81,7 @@
 :root {
   --code-font-family: "Jetbrains Mono", Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
 }
+
+code {
+  white-space : pre-wrap;
+}
