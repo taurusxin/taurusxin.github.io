@@ -5,6 +5,7 @@ tags: [ "nginx", "linux", "运维" ]
 draft: false
 slug: "linux-ops-1-nginx"
 date: "2023-10-12T22:44:00+0800"
+lastmod: "2023-11-05T17:21:00+0800"
 ---
 
 ## 前言
@@ -33,6 +34,12 @@ Nginx 1.25.0 实验性地将 HTTP/3 的支持合并到 mainline 中，现在可�
 
 ```shell
 sudo useradd -M -r -s /bin/false -c 'Web server' www
+```
+
+建立日志、缓存、配置文件等目录，并赋予权限
+
+```shell
+mkdir /var/log/nginx /var/cache/nginx
 ```
 
 更新系统并安装编译器套件
@@ -109,14 +116,14 @@ After=network-online.target remote-fs.target nss-lookup.target
 Wants=network-online.target
 
 [Service]
-User=www
-Group=www
 Type=forking
-PIDFile=/var/run/nginx.pid
-ExecStart=/usr/sbin/nginx -c /etc/nginx/nginx.conf
-ExecReload=/usr/sbin/nginx -s reload
-ExecStop=/usr/sbin/nginx -s stop
-PrivateTmp=true
+PIDFile=/run/nginx.pid
+ExecStartPre=/usr/sbin/nginx -t -q -g 'daemon on; master_process on;'
+ExecStart=/usr/sbin/nginx -g 'daemon on; master_process on;'
+ExecReload=/usr/sbin/nginx -g 'daemon on; master_process on;' -s reload
+ExecStop=-/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 --pidfile /run/nginx.pid
+TimeoutStopSec=5
+KillMode=mixed
 
 [Install]
 WantedBy=multi-user.target
@@ -141,3 +148,27 @@ sudo systemctl stop nginx.service
 # 查看服务状态
 sudo systemctl status nginx.service
 ```
+
+## 虚拟主机
+
+想要添加虚拟主机，需要修改一下主配置文件，并且建立一个存放虚拟主机配置文件的文件夹。
+
+```shell
+mkdir /etc/nginx/conf.d
+```
+
+修改 `/etc/nginx/nginx.conf` 主配置文件，在 `http` 模块最后新加一行
+
+```nginx
+http {
+  server {
+    # 默认虚拟主机
+    # ...
+  }
+
+  # 新增下面这行
+  include /etc/nginx/conf.d/*.conf;
+}
+```
+
+然后就可以在 `/etc/nginx/nginx.conf` 新增一个你的网站的配置文件，具体如何新建一个虚拟主机将会在后面的文章详细介绍。
