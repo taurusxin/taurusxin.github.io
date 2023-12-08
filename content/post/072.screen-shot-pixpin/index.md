@@ -1,7 +1,7 @@
 ---
 title: "｢软件推荐｣ 强大的新晋截图工具 —— PixPin"
 categories: [ "杂七杂八" ]
-tags: [ "截图", "Windows"， "macOS" ]
+tags: [ "截图", "Windows", "macOS" ]
 draft: false
 slug: "screen-shot-pixpin"
 date: "2023-12-08T09:19:00+0800"
