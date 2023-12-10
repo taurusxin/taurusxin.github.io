@@ -31,6 +31,14 @@ params:
     rssFullContent: true
     favicon:
 
+    imageProcessing:
+        content:
+            enabled: false
+    render:
+        image:
+            externalLink:
+                enabled: true
+
     footer:
         since: 2018
         customText: Made with ❤️ in Hangzhou <br> <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2022025362号</a>
@@ -260,3 +268,5 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+
+timeout: 60
