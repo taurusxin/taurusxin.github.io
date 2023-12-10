@@ -1,5 +1,5 @@
 ---
-title: "Linux 自我运维（一） - Nginx 1.25.2 源码编译"
+title: "Linux 自我运维（一） - Nginx 1.25.2 源码编译并启用 HTTP3"
 categories: [ "程序人生", "Linux" ]
 tags: [ "nginx", "linux", "运维" ]
 draft: false

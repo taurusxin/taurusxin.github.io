@@ -16,12 +16,12 @@ menu:
 
 ## 关于我
 
-我是 TaurusXin，来自杭州，研究生在读。咖啡、旅行、摄影爱好者。宽带症候群（对于网络要求极高的人群），Apple 全家桶用户。
+我是 TaurusXin，来自杭州，计算机/通信工程硕士。咖啡、旅行、摄影爱好者。宽带症候群（对于网络要求极高的人群），Apple 全家桶用户。
 
 ## 职业
 
-- 英国考文垂大学 (Coventry University) Computer Science 学士（一等学位）
-- 英国谢菲尔德大学 (The University Of Sheffield) Engineering Data Communication 在读硕士
+- 英国考文垂大学 (Coventry University) Computer Science 学士（First Class）
+- 英国谢菲尔德大学 (The University Of Sheffield) Engineering Data Communication 理学硕士（Merit）
 - 技术方向
   - Web 全栈开发
   - 移动应用开发
@@ -56,7 +56,6 @@ menu:
 ### 社交网络
 
 - [Instagram](https://www.instagram.com/taurus_yx/)
-- [微博](https://weibo.cn/2201650115/profile)
 - ~~Clubhouse - @taurusxin~~ (因手机号原因已废弃)
 - Clubhouse - @taurusyx (新)
 
@@ -67,6 +66,8 @@ menu:
 ### 代码托管
 
 - [Github](https://github.com/taurusxin)
+- [GitLab](https://gitlab.com/taurusxin)
+- [Gitea](https://git.taurusxin.com)
 
 ### 游戏
 
