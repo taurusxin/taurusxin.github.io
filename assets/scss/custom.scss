@@ -82,6 +82,6 @@
   --code-font-family: "Jetbrains Mono", Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
 }
 
-code {
+code > span.line {
   white-space : pre-wrap;
 }
