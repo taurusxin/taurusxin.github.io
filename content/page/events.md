@@ -16,6 +16,7 @@ comments: false
 
 ## Events
 
+- 2023 年 12 月 11 日 - 修正图片相册功能，CDN 后的图片也能生成图册并且互动，详见[这个提交](https://gitlab.com/taurusxin/hugo/-/commit/48a7c9a3299dcae5e59345fa7d2e2961cb5a63ab)
 - 2023 年 7 月 23 日 - 新增留言板页面，详见[这篇文章](https://www.taurusxin.com/new-message-board/)
 - 2023 年 7 月 17 日 - 升级 Gravatar 镜像站 CDN，采用 CacheFly 全球 CDN，详见[这篇文章](https://www.taurusxin.com/gravatar/)
 - 2023 年 3 月 5 日 - 启用了全新的评论系统 Artalk，详见[这篇文章](https://www.taurusxin.com/artalk-comment/)
