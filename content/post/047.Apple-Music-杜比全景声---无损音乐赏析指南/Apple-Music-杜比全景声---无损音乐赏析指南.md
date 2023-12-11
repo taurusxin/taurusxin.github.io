@@ -59,8 +59,8 @@ date: "2021-06-08 23:10:00"
 
   [1]: https://www.apple.com.cn/newsroom/2021/05/apple-music-announces-spatial-audio-and-lossless-audio/
   [2]: https://cdn.rhyland.cn/typecho/2021/06/08/new-options.jpeg
-  [3]: https://cdn.rhyland.cn/typecho/2021/06/08/Dolby-option.jpg
-  [4]: https://cdn.rhyland.cn/typecho/2021/06/08/audio-quality.jpg
-  [5]: https://cdn.rhyland.cn/typecho/2021/06/08/album-support.jpg
-  [6]: https://cdn.rhyland.cn/typecho/2021/06/08/Dolby-listening.jpg
+  [3]: https://cdn.rhyland.cn/typecho/2021/06/08/Dolby-option.png
+  [4]: https://cdn.rhyland.cn/typecho/2021/06/08/audio-quality.png
+  [5]: https://cdn.rhyland.cn/typecho/2021/06/08/album-support.png
+  [6]: https://cdn.rhyland.cn/typecho/2021/06/08/Dolby-listening.png
   [7]: https://cdn.rhyland.cn/typecho/2021/06/09/loseless-space.png
