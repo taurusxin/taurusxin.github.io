@@ -162,7 +162,9 @@ self.model = (
 streamlit run main.py
 ```
 
-如果一切工作正常，且你已经下载好了模型，那么将会弹出一个交互式的网页，你可以在里面进行对话等操作。![ChatGLM3 DEMO](https://cdn.taurusxin.com/hugo/2023/12/27/chatglm3-demo.png)
+如果一切工作正常，且你已经下载好了模型，那么将会弹出一个交互式的网页，你可以在里面进行对话等操作。
+
+![ChatGLM3 DEMO](https://cdn.taurusxin.com/hugo/2023/12/27/chatglm3-demo.png)
 
 ## 结语
 
