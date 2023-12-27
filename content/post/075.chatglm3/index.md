@@ -79,7 +79,7 @@ pip install -r requirements.txt  # 安装仓库依赖
 
 `transformers` 库版本应该 `4.30.2` 以及以上的版本 ，`torch` 库版本应为 2.0 及以上的版本，以获得最佳的推理性能。
 
-4. 手动下载模型，注意这一步你有一个良好（魔法）的网络环境，可以跳过这一步，到[第 5 步](运行 DEMO)
+4. 手动下载模型，注意这一步你有一个良好（魔法）的网络环境，可以跳过这一步，直接到第 5 步
 
 ```shell
 git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b.git  # 国内网络可以跑满
