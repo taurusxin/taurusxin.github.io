@@ -87,11 +87,11 @@ git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b.git  # 国内网络可�
 # 因为是手动下载的模型，需要设定环境变量告诉程序模型在哪，如果你网络环境好，那么不需要设置，程序启动时会自动下载
 
 # Windows
-$env:MODEL_PATH="chatglm3-6b"  # Powershell
-set MODEL_PATH="chatglm3-6b"   # CMD
+$env:MODEL_PATH="D:\chatglm3-6b"  # Powershell
+set MODEL_PATH="D:\chatglm3-6b"   # CMD
 
 # Linux / macOS
-export MODEL_PATH="chatglm3-6b"
+export MODEL_PATH="/opt/models/chatglm3-6b"
 ```
 
 5. 运行 DEMO
