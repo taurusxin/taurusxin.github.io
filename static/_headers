@@ -1,2 +1,5 @@
 /index.xml
   Content-Type: application/rss+xml
+
+/pgp
+  Content-Type: text/plain
