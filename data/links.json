@@ -52,5 +52,11 @@
     "website": "https://www.codein.icu/",
     "image": "codein.png",
     "description": "A student who enjoys tech & life."
+  },
+  {
+    "title": "吕舒君的博客",
+    "website": "https://cszj.wang/",
+    "image": "default.png",
+    "description": "吕舒君的博客"
   }
 ]
