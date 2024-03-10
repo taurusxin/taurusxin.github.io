@@ -42,15 +42,21 @@
     "description": "肥喵科技–一个专注于科技的博客"
   },
   {
-    "title": "星萌亦派StarMoeπ",
-    "website": "https://meta-sns.com/",
-    "image": "lincoin.jpg",
-    "description": "Maybe is a blog site."
+    "title": "晨鹤部落格",
+    "website": "https://chenhe.me/",
+    "image": "chenhe.png",
+    "description": "晨鹤部落格"
   },
   {
     "title": "Clouder’s Blog",
     "website": "https://www.codein.icu/",
     "image": "codein.png",
     "description": "A student who enjoys tech & life."
+  },
+  {
+    "title": "吕舒君的博客",
+    "website": "https://cszj.wang/",
+    "image": "default.png",
+    "description": "吕舒君的博客"
   }
 ]
