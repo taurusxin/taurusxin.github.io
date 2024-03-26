@@ -8,7 +8,7 @@
 <div id="Comments"></div>
 
 <script>
-  const artalkInstance = new Artalk({
+  const artalkInstance = Artalk.init({
     el:        '#Comments',
     pageKey:   '{{ .Page.RelPermalink }}',
     pageTitle: '{{ .Title }}',
