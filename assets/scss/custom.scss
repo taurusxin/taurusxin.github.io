@@ -1,30 +1,30 @@
 @media (prefers-color-scheme: light) {
-  ::selection{
+  ::selection {
     color: #f5f5fa;
     background-color: #424242;
   }
-  ::-webkit-selection{
+  ::-webkit-selection {
     color: #f5f5fa;
     background-color: #424242;
   }
-  ::-moz-selection{
+  ::-moz-selection {
     color: #f5f5fa;
     background-color: #424242;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  ::selection{
+  ::selection {
     color: #303030;
     background-color: #f5f5fa;
   }
-  ::-webkit-selection{
+  ::-webkit-selection {
     color: #303030;
-    background-color:#f5f5fa;
+    background-color: #f5f5fa;
   }
-  ::-moz-selection{
+  ::-moz-selection {
     color: #303030;
-    background-color:#f5f5fa;
+    background-color: #f5f5fa;
   }
 }
 
@@ -57,21 +57,21 @@
 
 @media (min-width: 1024px) {
   .article-list--compact.links {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      background: none;
-      box-shadow: none;
-      
-      article {
-          background: var(--card-background);
-          border: none;
-          box-shadow: var(--shadow-l2);
-          margin-bottom: 8px;
-          border-radius: 10px;
-          &:nth-child(odd) {
-              margin-right: 8px;
-          }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: none;
+    box-shadow: none;
+
+    article {
+      background: var(--card-background);
+      border: none;
+      box-shadow: var(--shadow-l2);
+      margin-bottom: 8px;
+      border-radius: 10px;
+      &:nth-child(odd) {
+        margin-right: 8px;
       }
+    }
   }
 }
 
@@ -79,9 +79,10 @@
 *   Global font family
 */
 :root {
-  --code-font-family: "Jetbrains Mono", Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
+  --code-font-family: 'Jetbrains Mono', Menlo, Monaco, Consolas, 'Courier New',
+    var(--zh-font-family), monospace;
 }
 
-code > span.line {
-  white-space : pre-wrap;
-}
+// code > span.line {
+//   white-space : pre-wrap;
+// }
