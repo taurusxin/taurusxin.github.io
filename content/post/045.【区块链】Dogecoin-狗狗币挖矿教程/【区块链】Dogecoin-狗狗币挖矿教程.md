@@ -16,7 +16,7 @@ lastmod: '2024-03-27T18:49:00+0800'
 
 首先连不上矿池的问题，这个问题可能是矿池的问题，也可能是网络问题，可使用 **Clash的 TUN 模式** 或者 Proxifier 等软件可将挖矿软件走全局代理，不是那个系统的全局代理，因为挖矿软件不遵循系统代理。
 
-其次是挖矿没有算力的，这个问题首先尝试更新你的显卡驱动，不要使用特别旧的版本，另外可以自行尝试一些其它的算法，比如新出的 EthashB3 等。
+其次是挖矿没有算力的，这个问题首先尝试更新你的显卡驱动，不要使用特别旧的版本，另外可以自行尝试一些其它的算法，比如新出的 EthashB3 等，可以拉到底下看新的算法教程，或者点[这里](#bzminer)。
 
 在点进矿池首页，会有很多算法和软件，只要根据配置配置即可。
 
@@ -69,21 +69,6 @@ lastmod: '2024-03-27T18:49:00+0800'
 将以下内容粘贴进去
 
 ```shell
-@echo off
- 
-setlocal enableDelayedExpansion
- 
-Rem #################################
-Rem ## Begin of user-editable part ##
-Rem #################################
- 
-set "POOL=ethash.unmineable.com:3333"
-set "WALLET=DOGE:钱包地址.lolMinerWorker"										
- 
-Rem #################################
-Rem ##  End of user-editable part  ##
-Rem #################################
- 
 lolMiner.exe --algo ETHASH --pool ethash.unmineable.com:3333 --user DOGE:钱包地址.矿工名字#cbnm-tuds --ethstratum ETHPROXY
 timeout 10
 ```
@@ -96,7 +81,35 @@ timeout 10
 
 修改完成后保存，然后双击这个文件（mine_doge.bat），就可以开始挖矿了。一般来说会显示下面这样的提示信息，没有报错就行。
 
-![正在挖矿](https://cdn.rhyland.cn/typecho/2021/05/21/mining.png)
+![正在挖矿](https://cdn.taurusxin.com/hugo/2024/03/30/doge_mining.png)
+
+**如果没有速率，例如显示的 Average speed 为 0 Mh/s，那么可能是你的显卡驱动问题，可以尝试更新显卡驱动。**
+
+**或者，你可以选择更换一个软件试一下，见下面的 BzMiner。**
+
+## BzMiner
+
+如果用 lolMiner 没有速率，考虑换一个软件试试，这里推荐 BzMiner。
+
+首先去官网，下载 BzMiner：
+
+> <https://www.bzminer.com/>
+
+点击右上角的 Release vxx.xx，下载最新版本的 BzMiner。
+
+解压后同样的在文件夹中新建一个 `mine_doge.bat` 文件，然后将下面的内容粘贴进去：
+
+```shell
+bzminer.exe -a rethereum -p stratum+ssl://ethashb3.unmineable.com:4444 -w DOGE:钱包地址 --pool_password 矿工名字#cbnm-tuds
+```
+
+这里我们用的是新的 EthashB3 算法，所以要选择 rethereum，然后将 YOUR_ADDRESS 改成你的狗狗币钱包地址，WORKER_NAME 改成你的矿工名字。
+
+保存之后双击这个文件，就可以开始挖矿了。
+
+![BzMiner 挖矿界面](https://cdn.taurusxin.com/hugo/2024/03/30/doge_mining_bzminer.png)
+
+会显示你的显卡型号、算力(图中的miner hr)等信息，如果显示的算力不是 0，那么就是在挖了。
 
 ## 查看收益
 
