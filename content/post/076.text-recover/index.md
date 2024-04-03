@@ -21,7 +21,7 @@ date: "2024-04-01T13:26:00+0800"
 
 ## 开源地址
 
-这个小工具已经开源，你可以在 [我的私人 Gitea](https://git.taurusxin.com/taurusxin/text-recover) 上找到它。
+这个小工具已经开源，你可以在 [GitHub](https://github.com/taurusxin/text-recover) 上找到并下载它。
 
 ## 使用方法
 
