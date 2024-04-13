@@ -31,4 +31,4 @@ date: "2021-10-27 00:23:00"
 
 若默认头像显示正确，则镜像站工作正常
 
-  [1]: https://gravatar.taurusxin.com/avatar/
+  [1]: https://weavatar.com/avatar/feaf84106b961c37594cc19ba9f6d1fd?d=mm&s=300
