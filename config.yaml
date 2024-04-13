@@ -205,6 +205,13 @@ menu:
           params:
               icon: home
         
+        - identifier: moments
+          name: 拾光
+          url: https://moments.taurusxin.com
+          weight: -75
+          params:
+              icon: moments
+        
         - identifier: rss
           name: RSS
           url: /index.xml
