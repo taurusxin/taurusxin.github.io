@@ -6,7 +6,7 @@ aliases:
   - about
   - contact
 slug: about
-lastmod: '2023-04-29T09:43:00+0100'
+lastmod: '2024-04-28T16:39:00+0800'
 menu:
     main: 
         weight: -90
@@ -18,27 +18,38 @@ menu:
 
 我是 TaurusXin，来自杭州，计算机/通信工程硕士。咖啡、旅行、摄影爱好者。宽带症候群（对于网络要求极高的人群），Apple 全家桶用户。
 
-## 职业
+## 教育背景
 
-- 英国考文垂大学 (Coventry University) Computer Science 学士（First Class）
+- 英国考文垂大学 (Coventry University) Computer Science 荣誉理学学士（First Class）
 - 英国谢菲尔德大学 (The University Of Sheffield) Engineering Data Communication 理学硕士（Merit）
 - 技术方向
   - Web 全栈开发
   - 移动应用开发
   - Linux 运维
-  - 大数据分析 / 云计算
+  - 深度学习 / 计算机视觉
+
+## 职业
+
+- 2024 年 2 月至今：[Wasu](https://www.wasu.com.cn/) - 网络工程师
 
 ## 技术栈
 
-- HTML 5 / CSS 3 / ECMAScript 6
-- Vue 2 / 3
-- React.js
-- Node.js
-- Python 3
-- Java
-- MySQL
-- Golang
-- .NET
+- 全栈开发
+  - HTML 5 / CSS 3 / ECMAScript 6
+  - Vue.js 2 / 3
+  - React.js
+  - Node.js
+  - Python 3
+  - Java
+  - MySQL / PostgreSQL / MongoDB
+  - Golang
+  - .NET
+- 网络
+  - TCP/IP
+  - CDN
+  - VPN
+  - SDN
+  - 思科 / 华三 / 华为
 
 ## 联系方式
 
