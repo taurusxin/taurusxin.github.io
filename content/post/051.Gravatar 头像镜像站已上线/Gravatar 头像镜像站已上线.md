@@ -7,6 +7,12 @@ slug: "gravatar"
 date: "2021-10-27 00:23:00"
 ---
 
+## 停止公告
+
+> 2024年5月3日，因CDN运营问题，终止 gravatar.taurusxin.com 全球头像镜像服务，镜像站已于当日停止解析，以下内容仅留作存档。
+
+---
+
 由于官方 https 站均被屏蔽，目前本站使用的是自建的 gravatar 镜像站，使用 Cachefly 全球 CDN 进行分发
 
 说明地址：<https://gravatar.taurusxin.com/>
